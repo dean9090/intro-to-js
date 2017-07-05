@@ -96,14 +96,14 @@ let a = (null == null);
 // A. True
 
 
-// 25.
+// 15.
 let b = (undefined == undefined);
 // A. True
 
 
 // 16.
 let c = (undefined == null);
-// A. false
+// A. True
 
 
 // 17.
