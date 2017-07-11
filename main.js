@@ -3,7 +3,7 @@
 // 1.
 // What does `givenName` equal right now?
 let givenName;
-// A:Nothing
+// A:undefined
 
 
 // 2.
@@ -35,7 +35,7 @@ let math = high - low;
 // 6.
 // What is `math` set to?
 math = high - "5";
-// A: 40"5"
+// A: 45
 
 
 // 7.
@@ -44,8 +44,9 @@ math = high - "5";
 // The answer shoud not be written in a comment.
 let born = 1984;
 let today = 2017;
-// A: let age = 2017 - 1984;
-  "Tim is " + age " old"
+// A:
+let age = 2017 - 1984;
+ let message = "Tim is " + age + " old"
 
 // 8.
 // Adjust this code. Store some information in the following variables.
@@ -108,17 +109,17 @@ let c = (undefined == null);
 
 // 17.
 let d = (null == false);
-// A. false
+// A. Undefined
 
 
 // 18.
 let e = (NaN == null);
-// A. false
+// A. Undefined
 
 
 // 19.
 let f = (NaN == NaN);
-// A. true
+// A. Undefined
 
 
 // 20.
@@ -145,7 +146,7 @@ if(x){
 } else {
 	console.log("False!");
 }
-// A: True!
+// A: False!
 
 
 // 22.
